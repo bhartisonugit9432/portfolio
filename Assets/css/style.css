@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+:root {
+    --blue: #2E3494;
+    --red: #D61F26;
+    --white: #fff;
+    --black: #202020;
+    --blue1: #2e3493;
+}
+
+/* navbar styling */
+.navbar {
+    background-color: var(--blue1) !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.navbar .navbar-brand img {
+    height: 52px;
+    width: 80%;
+    border-radius: 35px;
+}
+
+.navbar .navbar-brand {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.navbar .navbar-nav li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white) !important;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 100px 0;
+    margin-top: -69px;
+    height: 465px;
+    clip-path: polygon(100% 15%, 100% 74%, 69% 82%, 32% 73%, 0% 82%, 0% 14%);
+}
+
+.skills-section {
+    background-color: white;
+    padding: 2px 0;
+    margin: 6px 0px 0px 1px;
+}
+
+.skills-section .btn-1 .btn {
+    background-color: var(--blue1);
+    color: var(--white);
+    border-radius: 15px;
+}
+
+.skills-section .project-text {
+    align-items: center !important;
+}
+
+.skills-section .project-text h2 {
+    color: var(--white);
+    background-color: var(--blue);
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 90px;
+    margin-top: 12px;
+    padding: 18px;
+    clip-path: polygon(88% 16%, 100% 48%, 86% 80%, 10% 81%, 0% 48%, 11% 15%);
+    text-align: center;
+
+}
+
+.project-card {
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+
+/* profile */
