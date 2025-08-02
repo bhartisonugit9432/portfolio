@@ -89,7 +89,7 @@ body {
 .project-card:hover {
     transform: translateY(-10px);
 }
-.section-title{
+h2 .section-title{
     color:var(--blue);
 }
 
