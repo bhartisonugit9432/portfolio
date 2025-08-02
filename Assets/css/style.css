@@ -89,6 +89,9 @@ body {
 .project-card:hover {
     transform: translateY(-10px);
 }
+.section-title{
+    color:var(--blue);
+}
 
 footer {
     background-color: #343a40;
