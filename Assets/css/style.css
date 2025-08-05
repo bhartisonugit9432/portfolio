@@ -77,7 +77,7 @@ body {
     height: 90px;
     margin-top: 12px;
     padding: 18px;
-    clip-path: polygon(88% 16%, 100% 48%, 86% 80%, 10% 81%, 0% 48%, 11% 15%);
+/*     clip-path: polygon(88% 16%, 100% 48%, 86% 80%, 10% 81%, 0% 48%, 11% 15%); */
     text-align: center;
 
 }
