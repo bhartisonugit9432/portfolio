@@ -64,6 +64,11 @@ body {
     color: var(--white);
     border-radius: 15px;
 }
+.skills-section button .btn {
+    background-color: var(--blue1);
+    color: var(--white);
+    border-radius: 15px;
+}
 
 .skills-section .project-text {
     align-items: center !important;
@@ -97,7 +102,7 @@ h2 .section-title{
 }
 
 footer {
-    background-color: #343a40;
+    background-color: vzr(--blue1);
     color: white;
     padding: 20px 0;
 }
