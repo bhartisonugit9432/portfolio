@@ -81,23 +81,24 @@ body {
 /*     text-align: center; */
 
 /* }  */
-.skills-section .project-text h2 {
+/* .skills-section .project-text h2 {
   text-align: center;
   text-transform: uppercase;
   padding-bottom: 5px;
-}
-.skills-section .project-text h2:before {
+} */
+.skills-section .project-text h2 {
   width: 28px;
+  color:var(--blue);
   height: 5px;
   display: block;
   content: "";
   position: absolute;
-  bottom: 3px;
+  bottom: -74px;
   left: 50%;
   margin-left: -14px;
   background-color: #b80000;
 }
-.skills-section .project-text h2:after {
+/* .skills-section .project-text h2:after {
   width: 100px;
   height: 1px;
   display: block;
@@ -107,7 +108,7 @@ body {
   left: 50%;
   margin-left: -50px;
   background-color: #b80000;
-}
+} */
 
 .project-card {
     transition: transform 0.3s;
