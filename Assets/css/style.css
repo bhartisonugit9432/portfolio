@@ -77,38 +77,13 @@ body {
     height: 90px;
     margin-top: 12px;
     padding: 18px;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
 /*     clip-path: polygon(88% 16%, 100% 48%, 86% 80%, 10% 81%, 0% 48%, 11% 15%); */
     text-align: center;
 
  } 
-/* .skills-section .project-text h2 {
-  text-align: center;
-  text-transform: uppercase;
-  padding-bottom: 5px;
-} */
-/* .skills-section .project-text h2 {
-  width: 28px;
-  color:var(--blue);
-  height: 5px;
-  display: block;
-  content: "";
-  position: absolute;
-  bottom: -74px;
-  left: 50%;
-  margin-left: -14px;
-  background-color: #b80000;
-} */
-/* .skills-section .project-text h2:after {
-  width: 100px;
-  height: 1px;
-  display: block;
-  content: "";
-  position: relative;
-  margin-top: 25px;
-  left: 50%;
-  margin-left: -50px;
-  background-color: #b80000;
-} */
 
 .project-card {
     transition: transform 0.3s;
